@@ -4,7 +4,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout code from Git (Replace with your actual Git URL)
-                git url: 'https://github.com/Mahanidhii/mypython'
+                git url: 'https://github.com/Mahanidhii/mypython.git'
             }
         }
         stage('Setup Environment') {
